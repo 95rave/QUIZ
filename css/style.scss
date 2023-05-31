@@ -1,0 +1,36 @@
+$primary-color:#fff;
+$border-color:#ccc;
+
+
+.bordered-container{
+    border: 1px solid $border-color;
+    padding: 220px;
+}
+.navbar{
+    background-color: #f8f9fa;
+    display: flex;
+    
+}
+.navlink{
+    color: $primary-color;
+}
+.navlink:hover, .navlink:focus{
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+}
+.form-group{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.form-group:last-child{
+    margin-right: 0;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
